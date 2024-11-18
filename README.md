@@ -7,8 +7,8 @@
 #### Клонирование репозитория
 
 ```bash
-git clone https://github.com/C-PLUS-PLUS-GENIUS/data-storage-lab-3.git
-cd data-storage-lab-3
+git clone https://github.com/C-PLUS-PLUS-GENIUS/sdo-postgre-db.git
+cd sdo-postgre-db
 ```
 
 Для создания контейнера необходимо выполнить команду в директории c docker-compose:

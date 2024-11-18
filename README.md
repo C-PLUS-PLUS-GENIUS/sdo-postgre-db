@@ -1,10 +1,25 @@
-Для создания контейнера необходимо выполнить команду в директории c docker-compose:
-docker-compose up --build
+# sdo-postgre-db
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/C-PLUS-PLUS-GENIUS/sdo-postgre-db)
+
+## База данных для сайта с проверкой лабораторных работ по программированию
+
+#### Клонирование репозитория
+
+```bash
+git clone https://github.com/C-PLUS-PLUS-GENIUS/data-storage-lab-3.git
+cd data-storage-lab-3
+```
+
+Для создания контейнера необходимо выполнить команду в директории c docker-compose:
+```bash
+docker-compose up --build
+```
 
 Для старта контейнера необходимо выполнить команду в директории c docker-compose:
+```bash
 docker-compose up -d
-
+```
 
 Применение функций для доступа к БД можно посмотреть в файле test.py
 
